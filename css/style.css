@@ -37,7 +37,8 @@ address {
 .container{
     background: #FFF;
     width: 1440px;
-    height: 5330px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
 
 }
 
