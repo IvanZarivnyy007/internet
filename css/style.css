@@ -32,11 +32,13 @@ img {
 
 address {
   font-style: normal;
-
+ }
 
 .container{
+    background: #FFF;
+    width: 1440px;
+    height: 5330px;
 
-    
 }
 
   /* ==============================header===============================================*/
