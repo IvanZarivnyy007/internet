@@ -236,6 +236,8 @@ line-height: 110%; /* 18.7px */
 display: flex;
 justify-content: flex-end;
 margin-top: 52px;
+text-decoration: none; /* Видалити підкреслення посилання */
+  position: relative;
 }
 
 .one-hundred{
@@ -246,6 +248,15 @@ margin-top: 52px;
   font-weight: 600;
   line-height: 110%;
 
+}
+
+.link-section-five:after {
+  content: ''; 
+  display: block; 
+  border-bottom: 1px solid #5F0A61;
+  position: absolute; 
+  bottom: -4px; 
+  width: 44%; 
 }
 
 
